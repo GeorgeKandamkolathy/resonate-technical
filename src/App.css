@@ -1,5 +1,6 @@
-.App {
+body {
   text-align: center;
+  background-color: #121212;
 }
 
 .App-logo {
@@ -21,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(82, 82, 82);
 }
 
 .App-link {
@@ -35,4 +36,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Contacts-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2rem;
+}
+
+.Contact-card{
+  background-color: #438b8c;
+  width: 17rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem; 
+  box-shadow: 20px;
+  justify-self: center;
+}
+
+.Contact-card:hover{
+  background-color: #74a1b8;
+  box-shadow: 2px 2px #7d7e7e;
+}
+
+h1{
+  color:rgb(206, 206, 206)
+}
+
+.Modal-text{
+  color: whitesmoke
 }
